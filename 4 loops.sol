@@ -12,7 +12,7 @@ contract SolidityTest {
    function integerToString(uint _i) internal pure 
       returns (string memory) {
       
-      if (_i == 0) {
+      if (_i == 0) {  // if statement
          return "0";
       }
       uint j = _i;
